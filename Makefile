@@ -11,6 +11,8 @@ all:
 
 check:
 
+distcheck:
+
 clean:
 	rm -f upstream-ci-dummy-rpm.spec
 
