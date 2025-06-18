@@ -1,3 +1,5 @@
+.DEFAULT_GOAL := all
+
 abs_builddir="`pwd`"
 RPMBUILDOPTS	= --define "_sourcedir $(abs_builddir)" \
 		  --define "_specdir $(abs_builddir)" \
