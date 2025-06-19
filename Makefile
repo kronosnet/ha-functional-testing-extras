@@ -9,10 +9,6 @@ RPMBUILDOPTS	= --define "_sourcedir $(abs_builddir)" \
 
 all:
 
-check:
-
-distcheck:
-
 clean:
 	rm -f upstream-ci-dummy-rpm.spec
 
