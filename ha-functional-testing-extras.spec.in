@@ -1,4 +1,4 @@
-Name:                   upstream-ci-dummy
+Name:                   ha-functional-testing-extras
 Version:                @version@
 Release:                1
 Vendor:                 dummy
