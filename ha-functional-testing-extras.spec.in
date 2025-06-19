@@ -8,9 +8,16 @@ Summary:                Provides %{name}
 License:                %{vendor}
 # in Provides: you add whatever you want to fool the system
 Buildroot:              %{_tmppath}/%{name}-%{version}-root
+
+%if 0%{?rhel}
+%if 0%{?rhel} == 9
 Provides:               python3-google-api-client
+%endif
+%endif
+
 %description
 %{summary}
+
 %files
 
 %changelog
