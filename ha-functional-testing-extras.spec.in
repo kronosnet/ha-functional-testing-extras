@@ -3,7 +3,6 @@ Version:                @version@
 Release:                1
 Vendor:                 dummy
 Group:                  dummy
-BuildArch:              noarch
 Summary:                Provides %{name}
 License:                %{vendor}
 # in Provides: you add whatever you want to fool the system
