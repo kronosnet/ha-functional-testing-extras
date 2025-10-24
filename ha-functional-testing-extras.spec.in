@@ -9,7 +9,7 @@ License:                %{vendor}
 Buildroot:              %{_tmppath}/%{name}-%{version}-root
 
 %if 0%{?rhel}
-%if 0%{?rhel} == 9
+%if 0%{?rhel} >= 9
 Provides:               python3-google-api-client
 %endif
 %endif
